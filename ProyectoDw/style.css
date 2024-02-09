@@ -50,3 +50,12 @@ h3 {
         color: grey;
     }
 }
+
+.instagram:visited {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+p::first-line {
+    text-transform: uppercase;
+}
