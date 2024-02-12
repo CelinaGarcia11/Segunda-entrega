@@ -72,3 +72,21 @@ p::first-letter {
 }
 
 
+.navbarmenu {
+    display: flex;
+    justify-content: right;
+}
+
+.multimedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    color: white;
+}
+
+.servicios-lista {
+    display: flex;
+    justify-content: space-between;
+}
