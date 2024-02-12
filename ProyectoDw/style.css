@@ -90,3 +90,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
