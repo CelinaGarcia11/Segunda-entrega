@@ -1,0 +1,103 @@
+header {
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: white;
+}
+a {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+.navbar-menu {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 400px;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width : 480px) {
+    body {
+        background-color: grey;
+        color: crimson;
+    }
+}
+
+/* Desktop*/
+
+@media only screen and (min-wid : 981px) {
+    body {
+        background-color: crimson;
+        color: grey;
+    }
+}
+
+.instagram:visited {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+}
+
+
+.h1 {
+    display: flex;  
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navbarmenu {
+    display: flex;
+    justify-content: right;
+}
+
+.multimedia {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    color: white;
+}
+
+.servicios-lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-trabajos {
+    display: flex;
+    justify-content: center ;
+}
+
